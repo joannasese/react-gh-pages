@@ -19,20 +19,23 @@ body {
 }
 
 p.company {
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Josefin Sans', cursive;
+  font-weight: 500;
+  font-size: 110px;
   color: #0B3948;
   margin: 0;
   /* padding: 0; */
 }
 
-p {
-  font-family: 'Josefin Sans', Arial, sans-serif;
-  font-weight: 300;
-}
-
 p.sub-company {
+  font-family: 'Josefin Sans', cursive;
   color: #416165;
   margin-top: -5px;
+}
+
+p {
+  font-family: 'Muli', Arial, sans-serif;
+  font-weight: 300;
 }
 
 a:link {
@@ -44,16 +47,13 @@ a:hover{
   color: #416165;
 }
 
-p.company {
-  font-size: 100px;
-}
-
 p.sub-company {
   font-size: 40px;
 }
 
 p.text {
   font-size: 25px;
+  font-weight: 100;
 }
 
 /* @media screen and (min-width: 601px) {
